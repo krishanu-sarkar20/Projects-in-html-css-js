@@ -1,0 +1,91 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: aqua;
+    background-image: url('aot_hero_image.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+header img {
+    max-width: 100px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 0 1rem;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+section {
+    padding: 2rem;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.8);
+    margin: 20px 0;
+}
+
+#hero {
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #00000056;
+}
+
+.hero-content {
+    color: #fff;
+}
+
+#about {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+}
+
+#characters,
+#episodes,
+#contact {
+    background-color: rgba(255, 255, 255, 0.363);
+}
+
+#characters li,
+#episodes li {
+    list-style: disc;
+}
+
+.cta-button {
+    display: inline-block;
+    background-color: #000;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+footer {
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+section ul li {
+    list-style-type: none;
+}
